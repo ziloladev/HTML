@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .mainDiv {
+            display: flex;
+            letter-spacing: 0.7px;
+        }
+
+        .leftDiv {
+            width: 20%;
+            border-right: 1.5px solid rgb(177, 177, 179);
+            margin-left: 30px;
+            height: 135vh;
+
+        }
+
+        .leftDiv h2 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .leftDiv div {
+            border-top: 1.5px solid rgb(177, 177, 179);
+        }
+
+        .leftDiv p {
+            margin-left: 30px;
+
+        }
+
+        .rightDiv {
+            width: 80%;
+        }
+
+        .rightDiv h2 {
+            margin-left: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .rightDiv p {
+            text-align: justify;
+            margin-left: 30px;
+            line-height: 22px;
+        }
+
+        .struk {
+            background-color: rgb(247, 247, 247);
+            width: 92%;
+            line-height: 2;
+            font-family: monospace;
+            padding: 2px;
+            text-align: justify;
+            border-radius: 4px;
+            margin-left: 40px;
+
+        }
+
+        .editor {
+
+            margin-left: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainDiv">
+        <div class="leftDiv">
+            <h2>HTML</h2>
+            <div>
+                <p>Introduction</p>
+            </div>
+            <div>
+                <p>HTML Editors</p>
+            </div>
+            <div>
+                <p>HTML Elements</p>
+            </div>
+            <div>
+                <p>HTML Atributes</p>
+            </div>
+            <div>
+                <p>HTML Heading</p>
+            </div>
+            <div>
+                <p>HTML Paragragh</p>
+            </div>
+            <div>
+                <p>HTML Style</p>
+            </div>
+            <div>
+                <p>HTML Formating</p>
+            </div>
+            <div>
+                <p>Reference</p>
+            </div>
+        </div>
+        <div class="rightDiv">
+            <h2>Introduction</h2>
+            <p>HTML is an acronym for HyperText Markup Language, and it is the standard language for creating web pages.
+                Every web page you surf on your browser is built using HTML. The primary use of HTML is to provide a
+                proper structure to the web page so all the content or data of the page could represent adequately. A
+                stand-alone HTML can create only static and skeleton-looking black and white pages, but with the help of
+                CSS and JavaScript, we can create a more interactive and intuitive web page. When we try to visit a
+                website or click on the link, we basically request the server to show us the page, then the server acts
+                on our request and sends us an appropriate HTML document as a response. Then this HTML document is
+                parsed by the browser, and we are able to see the content.
+            </p>
+            <div>
+                <h3 style="margin-left: 30px;">HTML Document</h3>
+            </div>
+            <div class="struk" style="padding: 25px;">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html lang="en"&gt;<br>
+                &lt;head&gt;<br>
+                &lt;meta charset="UTF-8"&gt;<br>
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                &lt;title&gt;Document&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                <br>
+                &lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+                &lt;p&gt;This is a paragraph&lt;/p&gt;<br>
+                <br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+
+            </div>
+            <h2>HTML Editors</h2>
+            <p>However, you can use Notepad to create and edit HTML documents, but we recommend installing an
+                open-source editor. There are many free-to-use text editor software available on the internet, which
+                provide a better interactive user interface and some add-on functionalities that are missing in
+                notepad.</p>
+            <p>Here is the list of top 4 HTML text editors you can pick:</p>
+            <ul style="line-height: 30px;
+                padding-left: 100px;">
+                <li>Sublime text Editor</li>
+                <li>Notepad++</li>
+                <li>Visual Studio Code</li>
+                <li>Atom</li>
+            </ul>
+            <h2>HTML Elements</h2>
+            <p>The HTML elements provide semantic meaning to the webpage content. We often use the terms 'HTML
+                elements' and 'tags' interchangeably, but technically, they are different. An HTML tag is just a
+                character inside angle brackets &lt;&gt;, whereas an HTML element consists of a starting tag, its
+                attributes, content, and an end tag. For example:
+            </p>
+            <div class="struk">
+                <p>&lt;p class= "para"&gt; Hello World &lt;p&gt;</p>
+            </div>
+            <h2>HTML Attributes</h2>
+            <p>In HTML, attributes are used to provide additional information about elements. For most HTML elements,
+                attributes are optional, but some elements require them. Attributes are always specified within the
+                opening tag of an HTML element and are defined as a name-value pair. <b>Example</b>
+            </p>
+            <div class="struk">
+                <p>&lt;image src="cat.jpg" alt = "cat image"&gt;</p>
+            </div>
+            <p>"In this example, src="cat.jpg" and alt="cat image" are two attributes where src and alt are attribute
+                names, and "cat.jpg" and "cat image" are attribute values. Here, the alt attribute is optional, but src
+                is mandatory because it specifies which image to show. There should be at least one space between two
+                attributes, and the attribute values must be enclosed in double quotation marks. Some important HTML
+                attributes include:"
+
+            </p>
+            <h2>HTML Heading</h2>
+            <p>"To display a section heading, title, or subtitle, we can use HTML heading tags. In HTML5, there are six
+                heading tags, ranging from &lt;h1&gt; to &lt;h6&gt;, where &lt;h1&gt; specifies the largest heading and
+                &lt;h6&gt; represents the smallest or subheading. If the content is enclosed within heading tags, it
+                will be displayed larger and bolder compared to other text on the webpage. Example:"
+            </p>
+            <div class="struk">
+                <p>
+                    &lt;h1&gt;First Heading &lt;/h1&gt;<br>
+                    &lt;h2&gt;Second Heading &lt;/h2&gt;<br>
+                    &lt;h3&gt;Third Heading &lt;/h3&gt;<br>
+                    &lt;h4&gt;Forth Heading &lt;/h4&gt;<br>
+                    &lt;h5&gt;Fifth Heading &lt;/h5&gt;<br>
+                    &lt;h6&gt;Sixth Heading &lt;/h6&gt;<br>
+                </p>
+            </div>
+            <h2>HTML Paragragh</h2>
+            <p>In HTML paragraphs can be defined using &lt;p&gt; element. Paragraph text always starts from a new
+                line, the browser parsed the &lt;p&gt; tag and automatically add some margin and white space after the
+                end &lt;/p&gt; tag.
+            </p>
+            <div class="struk">
+                <p>&lt;p&gt; Hello! and Welcome to TechGeekBuzz &lt;/p&gt;<br>
+                    &lt;p&gt; Here you get to know all about the latest technology. &lt;/p&gt;
+                </p>
+            </div>
+            <h2>HTML Style</h2>
+            <p>Every browser has a specific engine that parses the HTML document and displays a default style of the
+                page content.</p>
+            <div class="struk">
+                <p>
+                    &lt;body style="background-color:yellow;"&gt;<br>
+                    <br>
+                    &lt;h1&gt;TechGeekBuzz&lt;/h1&gt;<br>
+                    &lt;p&gt;Welcome to TechGeekBuzz.&lt;/p&gt;<br>
+                    <br>
+                    &lt;/body&gt;
+                </p>
+            </div>
+            <h2>HTML Formating</h2>
+            <p>In HTML, we have many special elements that can provide special meaning to text content.</p>
+            <div>
+                <p><u style="color: blue;">HTML Elements</u> Description<br>
+                &lt;b&gt; Bold the text<br>
+                &lt;strong&gt; An alternative for &lt;b&gt;, which tell that this text is essential.<br>
+                &lt;i&gt; Italic the text<br>
+                &lt;em&gt; Similar to italic but used when we want to emphasize the text.<br>
+                &lt;mark&gt; It marks the text with a default "yellow" background colour<br>
+                &lt;small&gt; Decrease the text size<br>
+                &lt;del&gt; It prints a cross line over the text.<br>
+                &lt;ins&gt; Represents the inserted text by putting an underline.<br>
+                &lt;sub&gt; This element is used to display the subscript.<br>
+                &lt;sup&gt; It can make a text superscript.<br>
+            </p>
+            </div>
+            <h2>Reference</h2>
+            <ul>
+                <li>All the documentation in this page is taken from <u style="color: blue;">HTML Tutorial</u></li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
